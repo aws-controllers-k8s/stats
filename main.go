@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	extractor "github.com/aws-controllers-k8s/ack-api-extractor/pkg"
+	extractor "github.com/aws-controllers-k8s/stats/pkg"
 )
 
 func main() {

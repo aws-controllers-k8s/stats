@@ -1,4 +1,4 @@
-module github.com/aws-controllers-k8s/ack-api-extractor
+module github.com/aws-controllers-k8s/stats
 
 go 1.22
 
@@ -8,6 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.37.1
 	github.com/aws/aws-sdk-go-v2/config v1.30.2
 	github.com/aws/aws-sdk-go-v2/service/bedrockagentruntime v1.46.1
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -23,5 +24,4 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.31.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.35.1 // indirect
 	github.com/aws/smithy-go v1.22.5 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

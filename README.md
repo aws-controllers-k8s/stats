@@ -1,4 +1,4 @@
-# ACK Operations Extractor
+# ACK Stats
 
 A tool for extracting and analyzing AWS API operations from service models, designed to support the AWS Controllers for Kubernetes (ACK) project.
 
@@ -129,7 +129,7 @@ When `--generate-policies` is enabled, the tool also generates IAM policy JSON f
 
 The tool uses a two-tier classification approach:
 
-### Automatic Classification
+### Classification
 - **Supported Operations**: Operations found in existing controller code are automatically marked as **Control Plane**
 - This assumes that implemented operations are inherently control plane by nature
 
